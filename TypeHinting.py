@@ -47,12 +47,12 @@ for i in range(len(idx_num)-1,-1,-1):
     k1.pop(idx_num[i])
 print(k1)
 ###==============================================
-k1 = [{"name":"karthik"},{"name":"karthik"},{"name":"Ramzan"},{"name":"sasi"},{"name":"Ramzan"},{"name":"RK"},{"name":"karthik"},{"name":"RK"},{"name":"RK"},{"name":"Sasi"},]
-for i in k1:
-    if i["name"] == "karthik":
-        print(k1.index(i))
-
-k1 = [{"name":"karthik"},{"name":"karthik"},{"name":"Ramzan"},{"name":"karthik"},{"name":"Ramzan"},{"name":"RK"},{"name":"karthik"},{"name":"RK"},{"name":"RK"},{"name":"Sasi"},]
-k1.pop(2)
-k2 = k1
-print(k2)
+# k1 = [{"name":"karthik"},{"name":"karthik"},{"name":"Ramzan"},{"name":"sasi"},{"name":"Ramzan"},{"name":"RK"},{"name":"karthik"},{"name":"RK"},{"name":"RK"},{"name":"Sasi"},]
+# for i in k1:
+#     if i["name"] == "karthik":
+#         print(k1.index(i))
+#
+# k1 = [{"name":"karthik"},{"name":"karthik"},{"name":"Ramzan"},{"name":"karthik"},{"name":"Ramzan"},{"name":"RK"},{"name":"karthik"},{"name":"RK"},{"name":"RK"},{"name":"Sasi"},]
+# k1.pop(2)
+# k2 = k1
+# print(k2)
