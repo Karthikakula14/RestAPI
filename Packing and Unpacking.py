@@ -44,10 +44,10 @@
 #     print(kwargs)
 # both(1,2,8,name = "karthik",age= 25)
 ##=========================================
-# def name(a,b,c,d):
-#     print(a,b,c,d)
-# details = [25,87,41]
-# name(*details,85)
+def name(a,b,c,d):
+    print(a,b,c,d)
+details = [25,87,41]
+name(*details,85)
 # #========================
 # def name(**kwargs):
 #     print(kwargs)

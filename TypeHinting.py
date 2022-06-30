@@ -38,14 +38,14 @@ from typing import List
 #     print(p)
 #     print("type error")
 ####==========================================
-k1 = [{"name":"karthik"},{"name":"karthik"},{"name":"Ramzan"},{"name":"Sasi"},{"name":"Ramzan"},{"name":"RK"},{"name":"karthik"},{"name":"RK"},{"name":"RK"},{"name":"Sasi"},]
-idx_num = []
-for i in range(len(k1)):
-    if k1[i]["name"] == "Sasi" or k1[i]["name"] == "Ramzan":
-        idx_num.append(i)
-for i in range(len(idx_num)-1,-1,-1):
-    k1.pop(idx_num[i])
-print(k1)
+# k1 = [{"name":"karthik"},{"name":"karthik"},{"name":"Ramzan"},{"name":"Sasi"},{"name":"Ramzan"},{"name":"RK"},{"name":"karthik"},{"name":"RK"},{"name":"RK"},{"name":"Sasi"},]
+# idx_num = []
+# for i in range(len(k1)):
+#     if k1[i]["name"] == "Sasi" or k1[i]["name"] == "Ramzan":
+#         idx_num.append(i)
+# for i in range(len(idx_num)-1,-1,-1):
+#     k1.pop(idx_num[i])
+# print(k1)
 ###==============================================
 # k1 = [{"name":"karthik"},{"name":"karthik"},{"name":"Ramzan"},{"name":"sasi"},{"name":"Ramzan"},{"name":"RK"},{"name":"karthik"},{"name":"RK"},{"name":"RK"},{"name":"Sasi"},]
 # for i in k1:

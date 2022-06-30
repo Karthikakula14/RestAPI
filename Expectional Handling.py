@@ -191,22 +191,22 @@
     #         return jsonify({"items":store['item']})
     # return jsonify({"Message: ": "Store not found"})
 ####=========================================================
-# students_data = [{'name': 'Karthik', 'grades': [34]},{'name':'Akula','grades':[45,78,96]},{'name':'Veera','grades':[98]}]
-# c = False
-# try:
-#     for student in students_data:
-#         grade = sum(student["grades"])/len(student["grades"])
-#         print(f"{student['name']} grade is {grade}")
-# except ZeroDivisionError:
-#     print(student["name"],"has no grades")
-#     # print(f"{student['name'] } has no grades")
-# except TypeError:
-#     print(f"{student['name']} has invalid grades")
-# else:
-#     print(f"End of calculating the grades")
-#     c = True
-# finally:
-#     if c ==True:
-#         print("All the student data calculated")
-#     else:
-#         print("Calculation abonded due to data error")
+students_data = [{'name': 'Karthik', 'grades': [34]},{'name':'Akula','grades':[45,78,96]},{'name':'Veera','grades':[98]}]
+c = False
+try:
+    for student in students_data:
+        grade = sum(student["grades"])/len(student["grades"])
+        print(f"{student['name']} grade is {grade}")
+except ZeroDivisionError:
+    print(student["name"],"has no grades")
+    # print(f"{student['name'] } has no grades")
+except TypeError:
+    print(f"{student['name']} has invalid grades")
+else:
+    print(f"End of calculating the grades")
+    c = True
+finally:
+    if c ==True:
+        print("All the student data calculated")
+    else:
+        print("Calculation abonded due to data error")
