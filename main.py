@@ -77,13 +77,13 @@
 # l1 = list(range(2,100))
 # k1 = filter(lambda n:n%2==0,l1)
 # print(list(k1))
-l1 = [25,448,78,5,33,1,25,12,45,85,885,447,56]
-l1.sort()  ## ASCENDING METHOD
-print(l1)
-l1.sort(reverse=True)  ### DESCENDING METHOD
-print(l1)
-for i in range(len(l1)):
-    for j in range(len(l1)):
-        if l1[i] < l1[j]:
-            l1[i],l1[j] = l1[j],l1[i]
-print(l1)
+# l1 = [25,448,78,5,33,1,25,12,45,85,885,447,56]
+# l1.sort()  ## ASCENDING METHOD
+# print(l1)
+# l1.sort(reverse=True)  ### DESCENDING METHOD
+# print(l1)
+# for i in range(len(l1)):
+#     for j in range(len(l1)):
+#         if l1[i] < l1[j]:
+#             l1[i],l1[j] = l1[j],l1[i]
+# print(l1)
