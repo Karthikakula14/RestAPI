@@ -87,3 +87,18 @@
 #         if l1[i] < l1[j]:
 #             l1[i],l1[j] = l1[j],l1[i]
 # print(l1)
+import random
+count = int(input("How many even numbers needed:: "))
+c = 0
+l1 = []
+while True:
+    ran_num = random.randint(10,100)
+    if ran_num%2 ==0:
+        l1.append(ran_num)
+        # print(ran_num)
+        # c +=1
+    if len(l1) == count:
+        print(l1)
+        break
+    # if c == count:
+    #     break
